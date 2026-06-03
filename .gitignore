@@ -1,0 +1,121 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packaging / build
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Python tooling caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# -----------------------------
+# Secrets & env
+# -----------------------------
+# Local env files (may contain secrets)
+.env
+.env.*
+backend/.env
+
+# Alembic config often contains DB URL; do not commit
+backend/alembic.ini
+
+# Credentials, keys
+.netrc
+.git-credentials
+*.pem
+*.key
+id_rsa*
+*.p12
+*.jks
+
+# AWS / GCP / Azure credentials
+.aws/
+.azure/
+.gcloud/
+
+# Other secret files
+.secrets
+secrets.yml
+
+# -----------------------------
+# Databases, logs, OS
+# -----------------------------
+*.sqlite3
+*.db
+*.log
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDEs and editors
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Docker / Terraform / CI
+# -----------------------------
+docker-compose.override.yml
+.docker/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# CI credentials
+# (Add any CI files that contain secrets)
+
+# Next/Vite/Nuxt caches
+.next/
+.nuxt/
+.parcel-cache/
+.vite/
+
+# -----------------------------
+# Frontend / Angular
+# -----------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/.angular/
+frontend/tmp/
+frontend/out-tsc/
+frontend/coverage/
+frontend/ng-serve*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Misc
+# -----------------------------
+.ipynb_checkpoints
+celerybeat-schedule
+

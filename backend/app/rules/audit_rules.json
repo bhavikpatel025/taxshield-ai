@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AF-001",
+    "description": "Business deductions appear high compared with reported income.",
+    "severity": "medium",
+    "score": 3,
+    "supporting_tax_authority": "IRC Section 162; IRS Publication 535",
+    "type": "ratio",
+    "numerator_terms": ["expense", "expenses", "deduction", "deductions"],
+    "denominator_terms": ["income", "gross receipts", "revenue"],
+    "threshold": 0.65
+  },
+  {
+    "code": "AF-002",
+    "description": "Submission references Schedule C activity but does not clearly include required schedule details.",
+    "severity": "medium",
+    "score": 2,
+    "supporting_tax_authority": "IRS Form 1040 Schedule C instructions",
+    "type": "missing_context",
+    "required_terms": ["schedule c"],
+    "missing_any_terms": ["principal business", "business code", "gross receipts"]
+  },
+  {
+    "code": "AF-003",
+    "description": "Home office deduction appears without clear exclusive and regular use support.",
+    "severity": "medium",
+    "score": 2,
+    "supporting_tax_authority": "IRC Section 280A; IRS Publication 587",
+    "type": "missing_context",
+    "required_terms": ["home office"],
+    "missing_any_terms": ["exclusive use", "regular use", "principal place of business"]
+  },
+  {
+    "code": "AF-004",
+    "description": "Cash-intensive activity keywords are present and should be reviewed for substantiation.",
+    "severity": "high",
+    "score": 4,
+    "supporting_tax_authority": "IRS Publication 583; IRC Section 6001",
+    "type": "keyword",
+    "terms": ["cash sales", "cash receipts", "unreported cash", "cash business"]
+  },
+  {
+    "code": "AF-005",
+    "description": "Charitable contribution references appear without clear receipt or substantiation language.",
+    "severity": "medium",
+    "score": 2,
+    "supporting_tax_authority": "IRC Section 170; IRS Publication 526",
+    "type": "missing_context",
+    "required_terms": ["charitable", "donation", "contribution"],
+    "missing_any_terms": ["receipt", "written acknowledgment", "substantiation"]
+  }
+]

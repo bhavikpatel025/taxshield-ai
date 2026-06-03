@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "irs-pub-587-home-office",
+    "source_title": "IRS Publication 587",
+    "section": "Business Use of Your Home",
+    "source_url": "https://www.irs.gov/forms-pubs/about-publication-587",
+    "keywords": ["home office", "business use of home", "exclusive use", "regular use", "principal place of business"],
+    "content": "A home office deduction generally requires part of the home to be used exclusively and regularly as a principal place of business or another qualifying business location."
+  },
+  {
+    "source_id": "irs-pub-535-business-expenses",
+    "source_title": "IRS Publication 535",
+    "section": "Business Expenses",
+    "source_url": "https://www.irs.gov/forms-pubs/about-publication-535",
+    "keywords": ["business expense", "ordinary and necessary", "deduct", "deduction", "expenses"],
+    "content": "Business expenses are generally deductible when they are ordinary and necessary expenses paid or incurred in carrying on a trade or business."
+  },
+  {
+    "source_id": "irc-162",
+    "source_title": "Internal Revenue Code",
+    "section": "Section 162",
+    "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section162",
+    "keywords": ["section 162", "ordinary", "necessary", "trade or business", "business expense"],
+    "content": "IRC Section 162 allows deductions for ordinary and necessary expenses paid or incurred during the taxable year in carrying on a trade or business."
+  },
+  {
+    "source_id": "irs-pub-526-charitable",
+    "source_title": "IRS Publication 526",
+    "section": "Charitable Contributions",
+    "source_url": "https://www.irs.gov/forms-pubs/about-publication-526",
+    "keywords": ["charitable", "donation", "contribution", "qualified organization", "substantiation"],
+    "content": "Charitable contribution deductions require contributions to qualified organizations and may require records or written acknowledgment depending on the type and amount of the contribution."
+  },
+  {
+    "source_id": "irs-schedule-c",
+    "source_title": "IRS Schedule C Instructions",
+    "section": "Profit or Loss From Business",
+    "source_url": "https://www.irs.gov/forms-pubs/about-schedule-c-form-1040",
+    "keywords": ["schedule c", "sole proprietor", "profit or loss", "gross receipts", "business income"],
+    "content": "Schedule C is used to report income or loss from a business operated as a sole proprietor and includes gross receipts, expenses, and profit or loss calculations."
+  }
+]
